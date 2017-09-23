@@ -4,11 +4,11 @@ Dependencies:
   - yarn
 
 Install:
-  $ yarn install
-  $ yarn upgrade
+  - $ yarn install
+  - $ yarn upgrade
 
 Build:
-  $ yarn build
+  - $ yarn build
 
 Run:
-  .gui.py
+  - ./gui.py
