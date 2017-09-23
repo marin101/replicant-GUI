@@ -1,0 +1,7 @@
+
+/gui/users/
+/gui/dist
+/gui/gui.bin
+/gui/node_modules
+/gui/static/*.bundle.js
+
