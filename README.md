@@ -1,6 +1,7 @@
 # replicant-GUI
 
 Dependencies:
+  - python packages
   - yarn
 
 Install:
