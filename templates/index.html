@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<!--
+		TODO: Add some meta name/value pairs,
+			(eg. <meta name="Company"> content="ReplicantTech")
+	-->
+	<title>ReplicantTech | Replication statistics</title>
+
+	<!-- Compiled and minified Bootstrap CSS
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous"/>
+	-->
+	<!-- Compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous"/>
+
+	<link rel="stylesheet" type="text/css"
+		href="{{ url_for('static', filename='css/style.css') }}"/>
+</head>
+
+<!-- TODO: Think about padding and where to place it -->
+<body style="padding-top: 50px;">
+<div id="application"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Application -->
+<script src="{{ url_for('static', filename='vendor.bundle.js') }}"></script>
+<script src="{{ url_for('static', filename='app.bundle.js') }}"></script>
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+
+</body>
+</html>
+
